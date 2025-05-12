@@ -1,6 +1,6 @@
 // frontend/src/pages/Registros.jsx
 import React, { useEffect, useState } from 'react';
-import { getAuthHeader } from '../utils/auth';
+import { getAuthHeader } from '../../utils/auth';
 
 function Registros({ filters }) {
   const [records, setRecords] = useState([]);

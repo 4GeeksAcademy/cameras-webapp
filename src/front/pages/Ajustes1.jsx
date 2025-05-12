@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getAuthHeader, getUser } from "../utils/auth";
+import { getAuthHeader, getUser } from "../../utils/auth";
 
 function Ajustes1() {
   const [cameras, setCameras] = useState([]);
